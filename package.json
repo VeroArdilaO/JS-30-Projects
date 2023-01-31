@@ -6,19 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/VeroArdilaO/JS-drum-kit.git"
-  },
   "keywords": [
     "sounds",
     "drum",
     "javascript"
   ],
   "author": "Veronica Ardila",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/VeroArdilaO/JS-drum-kit/issues"
-  },
-  "homepage": "https://github.com/VeroArdilaO/JS-drum-kit#readme"
+  "license": "ISC"
 }
