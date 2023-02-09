@@ -5,8 +5,18 @@ body {
     font-size: 20px;
 }
 
+:root{
+    --spacing: 10px;
+    --blur: 10px;
+    --base: #ff0080;
+}
+
 h1 {
     text-align: center;
+}
+
+.h1{
+    color: var(--base);
 }
 
 .controls{
@@ -20,4 +30,8 @@ img {
     margin: auto;
     width: 300px;
     height: 400px;
+    padding: var(--spacing);
+    background: var(--base);
+    border-radius: 50%;
+    filter:blur(var(--blur));
 }
